@@ -8,6 +8,5 @@ onChange={filterContacts}
 className={css.inputContact}
 />)
 }
-
 export default Filter
 
