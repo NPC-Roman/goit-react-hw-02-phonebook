@@ -44,14 +44,14 @@ class App extends Component {
       <h1  style={{
         marginTop: "25px",
         textAlign: "center",
-        color: "rgb(145, 122, 122)",
+        color: "#000000",
       }}>Phonebook</h1>
       <Form addToContact={this.onAddContact}/>
 
       <h2 style={{
         marginTop: "20px",
         textAlign: "center",
-        color: "rgb(145, 122, 122)",
+        color: "#000000",
       }}>Contacts:</h2>
       <Filter value={this.state.filter} filterContacts={this.onFilterContact}/>
       <Contacts contacts={this.getContactList()} onRemove={this.onRemoveContact}/>

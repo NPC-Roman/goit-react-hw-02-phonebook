@@ -28,10 +28,8 @@ numberFormId = shortid.generate()
     name: this.state.name, 
     number: this.state.number})
 
-    // console.log(this.state)
     this.resetForm()
 }
-
 
   render() {
     return (
@@ -67,7 +65,6 @@ numberFormId = shortid.generate()
   )
 }
 }
-
 export default Form
 
 
