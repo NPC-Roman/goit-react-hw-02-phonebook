@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 import shortid from 'shortid'
 import css from './Form.module.css'
 
@@ -27,6 +27,8 @@ numberFormId = shortid.generate()
     id: shortid.generate()  , 
     name: this.state.name, 
     number: this.state.number})
+
+    // console.log(this.state)
     this.resetForm()
 }
 
@@ -65,6 +67,7 @@ numberFormId = shortid.generate()
   )
 }
 }
+
 export default Form
 
 
