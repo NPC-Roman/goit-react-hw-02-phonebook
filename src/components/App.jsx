@@ -17,9 +17,7 @@ class App extends Component {
   onAddContact = newName => {
     if (
       this.state.contacts.some(
-        ({ name }) =>
-          name === newName.name ||
-          name.toLowerCase() === newName.name.toLowerCase()
+        ({ name }) => name.toLowerCase() === newName.name.toLowerCase()
       )
     ) {
       alert(`${newName.name} is alredy in contacts`);
